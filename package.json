@@ -1,0 +1,44 @@
+{
+  "name": "pointlinejs-quick-start",
+  "version": "1.0.0",
+  "description": "Quick start example for using pointlinejs, javascript library for visualization of tree diagrams",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack serve"
+  },
+  "keywords": [
+    "pointlinejs",
+    "quickstart",
+    "example",
+    "diagram",
+    "tree",
+    "js",
+    "svg",
+    "draw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:egor-progger/pointlinejs-quick-start.git"
+  },
+  "author": "Egor Fedoseev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egor-progger/pointlinejs-quick-start/issues"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.8.0",
+    "css-loader": "^6.8.1",
+    "lit": "^2.8.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass-loader": "^13.3.2",
+    "ts-loader": "^9.5.0",
+    "pointlinejs": "^0.1.23"
+  },
+  "homepage": "https://github.com/egor-progger/pointlinejs#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
